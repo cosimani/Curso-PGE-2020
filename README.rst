@@ -6,7 +6,7 @@ Destinado a los estudiantes de la carrera Ing. Informática de la Universidad Bl
 
 :Profesor: Ing. César Osimani
 :Asignatura: Programación Genérica y Eventos
-:Fecha: Agosto a noviembre de 2019
+:Fecha: Agosto a noviembre de 2020
 
 
 Materiales

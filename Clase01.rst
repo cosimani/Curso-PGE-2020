@@ -2,36 +2,18 @@
 
 .. _rcs_subversion:
 
-Clase 01 - PGE 2019
+Clase 01 - PGE 2020
 ===================
-(Fecha: 13 de agosto)
+(Fecha: 25 de agosto)
 
 :Autor: César Osimani
 :Correo: cosimani@ubp.edu.ar
-:Fecha: 13 de agosto de 2019
+:Fecha: 25 de agosto de 2020
 :Regularidad: 
-	- 2 parciales 	
-	- Parcialitos, ejercicios y cuestionarios (se promedian para 3er nota)
-	- Los ejericios son algunos de los que están en las clases
-	- Con los ejercicios correctamente resueltos se alcanza la nota 8, para llegar al 10 tiene que ser sobresaliente, agregando características nuevas y demostrando alto dominio de la solución.
-:Opcional (proponer un proyecto): 
-	- Proponer el desarrollo de un proyecto que les interese.
-	- Es individual.
-	- El proyecto reemplaza los dos parciales (no los parcialitos, ejercicios ni cuestionarios). 
-	- Para las notas de los parciales se entregan los avances del proyecto.
-:Opciones para proyectos: 
-	- Interfaz gráfica creada a partir de un XML (o JSON). 
-	- Desarrollo en Qt para Android 
-	- Desarrollos utilizando:
-	    - API de Facebook
-	    - API de MercadoLibre
-	    - API de Spotify			
-	    - API de Instagram			
-	    - Qt en Android			
-	    - Qt Google Maps			
-	    - OpenCV			
-	    - OpenGL			
-	- App que haga Croma `https://es.wikipedia.org/wiki/Croma <https://es.wikipedia.org/wiki/Croma>`_
+	- Primer parcial: Problemas para resolver en 2 horas.
+	- Segundo parcial: Trabajo práctico individual
+	- Tercer parcial: Mini exámenes, cuestionarios y participación en clase.
+	- La participación en clase tiene que ver con las intervenciones y exposición de ejercicios a pedido del docente.
 :Temas principales:
 	- Programación genérica y orientada a eventos
 	- Sobrecarga de operadores

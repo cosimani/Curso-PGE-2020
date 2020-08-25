@@ -2,9 +2,9 @@
 
 .. _rcs_subversion:
 
-Clase 02 - PGE 2019
+Clase 02 - PGE 2020
 ===================
-(Fecha: 15 de agosto)
+(Fecha: 27 de agosto)
 
 Herencia
 ========
@@ -74,7 +74,7 @@ Herencia
 	    return 0;
 	}
 
-**Ejercicio**
+**Ejercicio 2**
 
 - Agregar la características a Mundo para que pueda heredar de cualquier clase, no sólo de Real y Virtual
 - Que compile y deje ejecutar la aplicación pero el toString publicar que el Mundo creado no es posible.
