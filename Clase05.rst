@@ -17,4 +17,4 @@ Ejercicio 7:
 - Entre las clases que se pueden definir como comparables están: ``Persona``, ``Poste``, ``Cliente``, ...
 - Probar el funcionamiento del ordenamiento utilizando ``MiVector< Persona >``, ``MiVector< Poste >``, ``MiVector< int >``.
 - Mostrar los resultados en un ``QTextEdit`` en lugar de visualizarlo directamente por consola.
-- ¿Qué pasaría con el ordenamiento si se utilizan punteros como elementos, por ejemplo, ``MiVector< Persona * >``, ``MiVector< Poste * >``.
+- ¿Qué pasaría con el ordenamiento si se utilizan punteros como elementos, por ejemplo, ``MiVector< Persona * >``, ``MiVector<Poste*>``.
