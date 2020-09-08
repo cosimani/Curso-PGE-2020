@@ -388,16 +388,3 @@ Ejercicio 6:
 - Prestar atención en el problema, y trate de hacerlo funcionar.
 
 
-**Copiar objetos**
-
-.. figure:: images/clase04/copiar_objetos.png
-
-**Constructor copia**
-
-.. figure:: images/clase04/constructor_copia.png
-
-**Operador de asignación**
-
-.. figure:: images/clase04/operador_asignacion.png
-
-
