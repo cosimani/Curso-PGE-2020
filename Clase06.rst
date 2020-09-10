@@ -77,7 +77,7 @@ Ejercicio 8:
 ==========
 
 - Definir la clase ``LineaDeTexto`` que herede de ``QLineEdit``
-- Sobrecargar el ``operator+`` ``operator=`` y el contructor copia para que se puede ejecutar la siguiente línea de código:
+- Sobrecargar el ``operator+`` ``operator=`` y el constructor copia para que se puede ejecutar la siguiente línea de código:
 	
 .. code-block:: c
 	
@@ -88,7 +88,7 @@ Ejercicio 8:
 Ejercicio 9:
 ============
 
-- Agregar a la clase ``LineaDeTexto`` las características para permitir ejecutar la siguiente función ``main()``
+- Haga funcionar la siguiente función ``main()``
 
 
 .. code-block:: c
