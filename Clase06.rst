@@ -49,7 +49,6 @@ Para Opcionables y Mini Examen
 	
 	Persona p1( p2 );
 
-.. figure:: images/clase04/copiar_objetos.png
 
 **Constructor copia**
 
