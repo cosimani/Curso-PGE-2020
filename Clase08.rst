@@ -52,14 +52,6 @@ Clase 08 - PGE 2019
 	}
 
 
-Ejercicio 5:
-============
-
-- Incorporar LineaDeTexto a un proyecto de Qt para promocionarlo en QtDesigner
-- Crear un Formulario con QtDesigner que tenga 4 LineaDeTexto promocionadas
-- El formulario será para alta de personas
-- Un campo para Nombre, otro para Apellido, para DNI y uno para Nombre completo.
-- Esta última LineaDeTexto concatenará en tiempo real el nombre y apellido usando el operator+ de LineaDeTexto
 
 
 Captura de eventos con eventFilter
