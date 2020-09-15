@@ -2,14 +2,14 @@
 
 .. _rcs_subversion:
 
-Clase 07 - PGE 2019
+Clase 07 - PGE 2020
 ===================
-(Fecha: 10 de septiembre)
+(Fecha: 15 de septiembre)
 
 Para Opcionables y Mini Examen
 ==============================
 
-:Tarea para Clase 7:
+:Tarea para Clase 8:
 	Completar y estudiar exhaustivamente la clase Listado
 
 	Estudiar sobrecarga de operadores y templates
