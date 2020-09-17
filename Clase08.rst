@@ -7,6 +7,6 @@ Clase 08 - PGE 2020
 (Fecha: 17 de septiembre)
 
 
-**Opcionables**
+**Opcionables**: `Descargar la última versión desde aquí <https://github.com/cosimani/Opcionables>`_
 
 **Mini examen**
