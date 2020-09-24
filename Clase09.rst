@@ -187,12 +187,12 @@ Clase QCompleter
 - Permite completar palabras que está escribiendo el usuario en un QLineEdit
 - Se basa en un listado de palabras:
 
-.. code-block::c
+.. code-block::
 
 	QCompleter( const QStringList & list, QObject * parente = nullptr );
 
 
-.. code-block::c
+.. code-block::
 
 	QStringList lista;
 	lista << "Jorge << "Miguel" << "Marcos" << "Luis";
