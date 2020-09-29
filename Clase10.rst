@@ -226,7 +226,7 @@ Clase QTreeWidget
 **Ejercicio** Hacerlo funcionar.
 
 
-Ejercicio 8:
+Ejercicio 14:
 ============
 
 - Definir una clase genérica Vector que herede de QVector.
@@ -236,18 +236,18 @@ Ejercicio 8:
 	- float getPromedio() - Si los elementos son int o float, devolver el promedio sino devolver -1
 
 
-Ejercicio 9:
+Ejercicio 15:
 ============
 
 - Cuando alguna búsqueda no exista en la base de datos (QStringList lista), entonces que la agregue..
 
-Ejercicio 10:
+Ejercicio 16:
 ============
 
 - En lugar de utilizar un QStringList como base de datos, utilizar una base de datos SQLite
 - Agregar esta característica de autocompletado a la clase LineaDeTexto.
 
-Ejercicio 11:
+Ejercicio 17:
 ============
 
 - Agregar el método setDiccionario(QString archivo) para agregar un diccionario a la base de datos (QStringList lista).
