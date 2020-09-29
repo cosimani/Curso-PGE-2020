@@ -2,9 +2,33 @@
 
 .. _rcs_subversion:
 
-Clase 10 - PGE 2019
+Clase 10 - PGE 2020
 ===================
-(Fecha: 24 de septiembre)
+(Fecha: 29 de septiembre)
+
+
+Clase QTreeWidget
+=================
+
+- Permite visualizar una vista en árbol
+- Maneja ítems (objetos de la clase QTreeWidgetItem)
+
+.. code-block::
+
+    QTreeWidget *treeWidget = new QTreeWidget;
+    treeWidget->setColumnCount(2);
+    QList<QTreeWidgetItem *> items;
+
+    QStringList campos;
+    campos << "Campo 1" << "Campo 2";
+
+    for (int i = 0; i < 5; ++i)
+       items.append(new QTreeWidgetItem(campos));
+ 
+    treeWidget->addTopLevelItems(items);
+    treeWidget->show();
+
+
 
 
 

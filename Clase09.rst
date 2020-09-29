@@ -279,27 +279,3 @@ Resolución de una parte del MiniExamen 1
 
 	    return 0;
 	}
-
-Clase QTreeWidget
-=================
-
-- Permite visualizar una vista en árbol
-- Maneja ítems (objetos de la clase QTreeWidgetItem)
-
-.. code-block::
-
-    QTreeWidget *treeWidget = new QTreeWidget;
-    treeWidget->setColumnCount(2);
-    QList<QTreeWidgetItem *> items;
-
-    QStringList campos;
-    campos << "Campo 1" << "Campo 2";
-
-    for (int i = 0; i < 5; ++i)
-       items.append(new QTreeWidgetItem(campos));
- 
-    treeWidget->addTopLevelItems(items);
-    treeWidget->show();
-
-
-
