@@ -7,6 +7,17 @@ Clase 11 - PGE 2020
 (Fecha: 1 de octubre)
 
 
+Ejercicio 18:
+============
+
+- Agregar el método setDiccionario(QString archivo) para agregar un diccionario a la base de datos (QStringList lista).
+- Si el diccionario tiene dos columnas, entonces el popup tendrá dos columnas
+- Si el diccionario tiene una sola columna, entonces popup de una sola columna
+- Sugiere primero las palabras que empiecen con las letras buscadas, luego que sugiera las palabras que las contienen.
+
+
+
+
 
 Creación y uso de librerías dinámicas
 =====================================
@@ -104,7 +115,7 @@ Ejemplo
 	}
 
 
-Ejercicio 18
+Ejercicio 19
 ============
 
 - Utilizar la clase Login (de la clase pasada).
