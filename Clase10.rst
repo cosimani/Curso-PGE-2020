@@ -249,3 +249,14 @@ Ejercicio 17:
 
 - En lugar de utilizar un QStringList como base de datos, utilizar una base de datos SQLite
 - Agregar esta característica de autocompletado a la clase LineaDeTexto.
+
+
+
+Ejercicio 18:
+============
+
+- Agregar el método setDiccionario(QString archivo) para agregar un diccionario a la base de datos (QStringList lista).
+- Si el diccionario tiene dos columnas, entonces el popup tendrá dos columnas
+- Si el diccionario tiene una sola columna, entonces popup de una sola columna
+- Sugiere primero las palabras que empiecen con las letras buscadas, luego que sugiera las palabras que las contienen.
+
