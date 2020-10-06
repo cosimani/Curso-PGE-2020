@@ -2,10 +2,9 @@
 
 .. _rcs_subversion:
 
-Clase 12 - PGE 2019
+Clase 12 - PGE 2020
 ===================
 (Fecha: 6 de octubre)
-
 
 
 Creación y uso de librerías dinámicas
@@ -20,8 +19,8 @@ Creación y uso de librerías dinámicas
 .. figure:: images/clase08/librerias03.png
 
 
-Ejemplo
-=======
+Ejercicio 19
+============
 
 - Crear una clase Login que tenga una funcionalidad independiente
 - Crear un librería dinámica que la contenga
@@ -104,10 +103,9 @@ Ejemplo
 	}
 
 
-Ejercicio 19
+Ejercicio 20
 ============
 
-- Utilizar la clase Login (de la clase pasada).
 - Utilizar la clase LineaDeTexto.
 - LineaDeTexto debe tener las carecterísticas que hemos ido agregando (las sugerencias, los operadores, etc.)
 - Crear una librería dinámica con estas clases.
@@ -118,6 +116,7 @@ Ejercicio 19
 **Esquema para creación y uso de librerías**
 
 .. figure:: images/clase11/cuadro_librerias.jpg
+
 
 Uso de una clase propia con QtDesigner
 ======================================
@@ -147,9 +146,8 @@ Uso de una clase propia con QtDesigner
 
 
 
-
-
-**QMainWindow**
+QMainWindow
+===========
 
 .. figure:: images/clase08/qmainwindow.png
 
@@ -163,7 +161,7 @@ Uso de una clase propia con QtDesigner
 
 :Buscar íconos aquí: http://findicons.com/
 
-Ejercicio 13:
+Ejercicio 21:
 ============
 
 - Editor de  código fuente C++
@@ -179,7 +177,7 @@ CLI >> GUI >> NUI
     :target: https://prezi.com/_iqvhrobpe0p/desarrollo/
 
 
-Ejercicio 14:
+Ejercicio 22:
 ============
 
 - Proponer una interfaz gráfica de usuario
