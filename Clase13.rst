@@ -2,24 +2,9 @@
 
 .. _rcs_subversion:
 
-Clase 13 - PGE 2019
+Clase 13 - PGE 2020
 ===================
 (Fecha: 8 de octubre)
-
-
-Ejercicio 20
-============
-
-- Utilizar la clase LineaDeTexto.
-- LineaDeTexto debe tener las carecterísticas que hemos ido agregando (las sugerencias, los operadores, etc.)
-- Crear una librería dinámica con estas clases.
-- Crear una carpeta con subcarpetas con los archivos importantes (.h .dll .a)
-- Usar esta librería en otro proyecto para probar su funcionamiento.
-
-
-**Esquema para creación y uso de librerías**
-
-.. figure:: images/clase11/cuadro_librerias.jpg
 
 
 Uso de una clase propia con QtDesigner
