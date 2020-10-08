@@ -34,7 +34,9 @@ QMainWindow
 Ejercicio 21:
 ============
 
-- Editor de  código fuente C++
+- Crear un editor de código fuente (como el NotePad++ o el Sublime Text)
+- Utilice un buen paquete de íconos
+- Que tenga las funcionalidades más comunes de los editores de texto
 
 .. figure:: images/clase08/ejercicio.png
 
