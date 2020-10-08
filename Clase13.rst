@@ -38,6 +38,3 @@ Ejercicio 21:
 - Utilice un buen paquete de íconos
 - Que tenga las funcionalidades más comunes de los editores de texto
 
-.. figure:: images/clase08/ejercicio.png
-
-
