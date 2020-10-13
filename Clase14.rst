@@ -358,7 +358,8 @@ Ejemplo del Login independiente
 Ejercicio 23:
 ============
 
-- Modificar el ejemplo anterior para que Manager, Login, Principal y Ventana sean singletons.
+- Modificar el ejemplo anterior para que Manager, Login y Principal sean singletons.
+- Definir una clase Ventana que también sea singleton y agregar objetos Boton y una imagen de background.
 
 
 Ejercicio 24:
