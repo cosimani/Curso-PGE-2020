@@ -355,7 +355,7 @@ Ejemplo del Login independiente
 
 
 
-Ejercicio 22:
+Ejercicio 23:
 ============
 
 - Modificar el ejemplo anterior para disponer de las siguientes clases: Manager, Login, Principal y Ventana (tal como lo vimos en clase).
@@ -483,7 +483,7 @@ Ejercicio 22:
 	}
 
 
-Ejercicio 23:
+Ejercicio 24:
 ============
 
 - Hacer funcionar este ejemplo con Formulario, Login y Manager como singleton.
