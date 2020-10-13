@@ -2,11 +2,9 @@
 
 .. _rcs_subversion:
 
-Clase 14 - PGE 2019
+Clase 14 - PGE 2020
 ===================
-(Fecha: 15 de octubre)
-
-
+(Fecha: 13 de octubre)
 
 
 CLI >> GUI >> NUI
@@ -67,6 +65,73 @@ Uso de una clase propia con QtDesigner
 
 
 
+Uso de singleton
+================
+
+.. figure:: images/clase13/singleton.png
+
+
+**Ejemplo de AdminDB como singleton**
+
+.. code-block:: c++
+
+	#ifndef ADMINDB_H
+	#define ADMINDB_H
+
+	class AdminDB  {
+
+	private:
+	    static AdminDB * instancia;
+	    AdminDB();
+
+	public:
+	    static AdminDB * getInstancia();
+
+	    void conectar();
+	};
+
+	#endif // ADMINDB_H
+
+
+.. code-block:: c++
+
+	#include "admindb.h"
+	#include <QDebug>
+
+	AdminDB * AdminDB::instancia = nullptr;
+
+	AdminDB::AdminDB()  {
+	}
+
+	AdminDB * AdminDB::getInstancia()  {
+	    if( instancia == nullptr )  {
+	        instancia = new AdminDB;
+	    }
+	    return instancia;
+	}
+
+	void AdminDB::conectar()  {
+	    qDebug() << "La base se encuentra conectada...";
+	}
+
+
+.. code-block:: c++
+
+	#include "admindb.h"
+
+	int main( int, char ** )  {
+
+	    AdminDB::getInstancia()->conectar();
+
+	    return 0;
+	}
+
+
+
+
+
+
+
 Utilización de cámaras de video con Qt
 ======================================
 
@@ -115,7 +180,8 @@ Utilización de cámaras de video con Qt
 
 	#endif // VISOR_H
 
-**Ejercicio**
+Ejercicio 23:
+=============
 
 - Crear una aplicación con un QCameraViewfinder promovido a QWidget en QtDesigner
 - Un botón "Mostrar imagen" para que encienda la cámara y muestre la imagen
@@ -126,7 +192,7 @@ Utilización de cámaras de video con Qt
 
 - `Código fuente <https://github.com/cosimani/Curso-PGE-2019/blob/master/resources/clase13/camera.zip?raw=true>`_
 
-Ejercicio 15:
+Ejercicio 24:
 ============
 
 - Siguiendo el ejercicio anterior, crear una carpeta donde se irán guardando las imágenes de la cámara
@@ -134,7 +200,7 @@ Ejercicio 15:
 - Descargar en el disco las imágenes en archivos jpg cada un tiempo según el QSlider anterior
 - El nombre del archivo tendrá la fecha y hora en que fue capturada
 
-Ejercicio 16:
+Ejercicio 25:
 ============
 
 - Siguiendo el ejercicio anterior, usar todas las imágenes de esa carpeta mostrándolas en un QWidget cada 100 mseg.
@@ -188,10 +254,7 @@ Base de datos con SQLite (repaso)
 .. figure:: images/clase09/consultar2.png
 
 
-
-
-
-Ejercicio 17:
+Ejercicio 26:
 ============
 
 - Agregar un QPushButton "Capturar imagen" para procesarla
@@ -277,18 +340,18 @@ Levantar frame por frame: Clase QAbstractVideoSurface
 
 	}
 
-Ejercicio 18:
+Ejercicio 27:
 ============
 
 - Usar Capturador para levantar las imágenes de la cámara.
 - Convertir a escala de grises y visualizarlo en pantalla.
 
-Ejercicio 19:
+Ejercicio 28:
 ============
 
 .. figure:: images/clase11/ejer2.png
 
-Ejercicio 20:
+Ejercicio 29:
 ============
 
 .. figure:: images/clase11/ejer3.png
@@ -298,72 +361,8 @@ Ejercicio 20:
 - La restante serán las imágenes obtenidas en tiempo real desde la cámara.
 
 
-Ejercicio 21:
+Ejercicio 30:
 ============
 
 .. figure:: images/clase11/ejer4.png
-
-
-Uso de singleton
-================
-
-.. figure:: images/clase13/singleton.png
-
-
-**Ejemplo de AdminDB como singleton**
-
-.. code-block:: c++
-
-	#ifndef ADMINDB_H
-	#define ADMINDB_H
-
-	class AdminDB  {
-
-	private:
-	    static AdminDB * instancia;
-	    AdminDB();
-
-	public:
-	    static AdminDB * getInstancia();
-
-	    void conectar();
-	};
-
-	#endif // ADMINDB_H
-
-
-.. code-block:: c++
-
-	#include "admindb.h"
-	#include <QDebug>
-
-	AdminDB * AdminDB::instancia = nullptr;
-
-	AdminDB::AdminDB()  {
-	}
-
-	AdminDB * AdminDB::getInstancia()  {
-	    if( instancia == nullptr )  {
-	        instancia = new AdminDB;
-	    }
-	    return instancia;
-	}
-
-	void AdminDB::conectar()  {
-	    qDebug() << "La base se encuentra conectada...";
-	}
-
-
-.. code-block:: c++
-
-	#include "admindb.h"
-
-	int main( int, char ** )  {
-
-	    AdminDB::getInstancia()->conectar();
-
-	    return 0;
-	}
-
-
 
