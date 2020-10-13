@@ -358,14 +358,19 @@ Ejemplo del Login independiente
 Ejercicio 23:
 ============
 
-- Modificar el ejemplo anterior para disponer de las siguientes clases: Manager, Login, Principal y Ventana (tal como lo vimos en clase).
+- Modificar el ejemplo anterior para que Manager, Login, Principal y Ventana sean singletons.
+
+
+Ejercicio 24:
+============
+
 - Agregar en Login el siguiente método para poder utilizar una base SQLite.
 
 .. code-block:: c++
 
 	bool validarCon( QString archvioSqlite, QString tabla, QString campoUsuario, QString campoClave );
 
-- Dar a este método la funcionalidad que desee, pero es obligatorio que se escriba la documentación en el mismo código.
+- Dar a este método la funcionalidad que desee (incluir la documentación en el código para que otro programador sepa cómo usar este método).
 
 
 
@@ -483,7 +488,7 @@ Ejercicio 23:
 	}
 
 
-Ejercicio 24:
+Ejercicio 25:
 ============
 
 - Hacer funcionar este ejemplo con Formulario, Login y Manager como singleton.
