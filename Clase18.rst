@@ -75,14 +75,18 @@ Clase QThread
 .. figure:: images/clase19/clase_factorial.png
 
 
-Ejercicio 32:
+Ejercicio 27:
 ============
 	
 - Diseñar una aplicación GUI que escriba en un archivo muchísimos caracteres de tal forma se note que la interfaz de usuario se bloquea hasta finalizar la escritura.
 - Luego de esto, utilizar un hilo distinto para escribir la misma cantidad de caracteres.
 
-Ejercicio 33:
+Ejercicio 28:
 ============
 
 .. figure:: images/clase16/ejer-medidor.jpg
+
+
+Publicar una aplicación Qt en Play Store
+========================================
 
