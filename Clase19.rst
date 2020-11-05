@@ -226,5 +226,9 @@ Ejercicio 28:
 
 .. figure:: images/clase16/ejer-medidor.jpg
 
+Ejemplo de App Android
+======================
+
+
 
 
