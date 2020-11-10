@@ -290,3 +290,5 @@ Función callback
 	    ( * puntero_funcion )();  // Llama a la función apuntada
 	}
 
+Continuando con la App en Android
+=================================
