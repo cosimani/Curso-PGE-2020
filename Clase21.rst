@@ -8,6 +8,45 @@ Clase 21 - PGE 2019
 
 
 
+Ejercicio 34:
+============
+
+- Definir la siguiente clase:
+
+.. code-block:: c++
+
+	class Ordenador  {
+	public:
+	    void burbuja( int * v, int n )  {  /* código */  }
+	    void insercion( int * v, int n )  {  /* código */  }
+
+	    void seleccion( int * v, int n )  {  /* código */  }
+	};
+
+- Esta clase tendrá distintos métodos de ordenamiento.
+- Cada método ordena un array de n cantidad de enteros
+- Definir la clase ListaDeEnteros
+	- Herede de QVector
+	- Que no sea un template
+	- Que sólo mantenga elementos del tipo int
+	- Definir un método:
+	
+.. code-block:: c++	
+		
+	void ordenar( void ( Ordenador::*puntero_funcion )( int * v, int n ) );
+	// Este método ordenará los elementos
+
+
+
+
+
+
+Mini Examen 2: LineaDeTexto
+============
+
+- `Descargar resolución del Mini Examen 2 <https://github.com/cosimani/Curso-PGE-2019/blob/master/sources/clase19/MiniExamenLineaDeTexto.zip?raw=true>`_
+
+
 
 
 
