@@ -52,7 +52,7 @@ Ejercicio 31:
 
 	int a = afptr[ n ]( x );
 	
-Ejercicio 35:
+Ejercicio 32:
 ============
 
 - Con la misma idea del ejercicio anterior. Crear la clase genérica ListadoGenerico que herede de QVector<T>
@@ -66,7 +66,7 @@ Ejercicio 35:
 - Notar que ordenar podrá ordenar elementos de cualquier tipo, siempre y cuando los objetos a ordenar sean de una clase que tenga sobrecargado el operador >
 	
 
-Ejercicio 36:
+Ejercicio 33:
 ============
 
 - Modificar el ejercicio de la clase ListadoEnteros para usar funciones globales de ordenamiento, es decir, que no se encuentren dentro de Ordenador ni de ninguna clase.
@@ -87,7 +87,7 @@ Ejercicio 36:
 
     listado.ordenar( ordenador );
 
-Ejercicio 37:
+Ejercicio 34:
 ============
 
 - Modificar el ejercicio anterior usando también funciones globales de ordenamiento pero con la clase ListadoGenerico que sea un template:
@@ -96,12 +96,12 @@ Ejercicio 37:
 
 	template< class T > class ListadoGenerico : public QVector< T >  {
 	public:
-	    void ordenar( void ( * pFuncionOrdenamiento )( int *, int ) )  {
+	    void ordenar( void ( * pFuncionOrdenamiento )( T *, int ) )  {
 	        ( * pFuncionOrdenamiento )( this->data(), this->size() );
 	    }
 	};
 
-Ejercicio 38:
+Ejercicio 35:
 ============
 
 - Necesitamos conocer el rendimiento de cada algoritmo de ordenamiento midiendo su tiempo.
@@ -259,69 +259,4 @@ Ejercicio 38:
 
 	    return a.exec();
 	}
-
-
-**Otro ejemplo de callback**
-
-.. code-block:: c++
-
-	#ifndef BOTONES_H
-	#define BOTONES_H
-
-	class Boton  {
-	public:
-	    virtual void click()  {  }
-	};
-
-	template < class T > class BotonCallBack : public Boton  {
-	private:
-	    T * destinatario;
-	    void ( T::*callback )( void );
-	public:
-	    BotonCallBack( T *otro, void ( T::*puntero_funcion )( void ) )
-	        : destinatario(otro), callback(puntero_funcion)  {  }
-	
-	    void click()  {
-	        ( destinatario->*callback )();
-	    }
-	};
-
-	#endif // BOTONES_H
-
-.. code-block:: c++
-
-	#ifndef REPRODUCTOR_H
-	#define REPRODUCTOR_H
-
-	#include <QDebug>
-
-	class MP3Player{
-	public:
-	    void play()  {
-	        qDebug() << "Escuchando...";
-	    }
-	};
-
-	#endif // REPRODUCTOR_H
-
-.. code-block:: c++
-
-	#include <QApplication>
-	#include "botones.h"
-	#include "reproductor.h"
-
-	int main( int argc, char** argv )  {
-	    QApplication a( argc, argv );
-
-	    MP3Player mp3;
-	    BotonCallBack< MP3Player > * boton;
-
-	    //Conecta un MP3Player a un botón
-	    boton = new BotonCallBack< MP3Player >( &mp3, &MP3Player::play );
-
-	    boton->click();
-
-	    return 0;
-	}
-
 
